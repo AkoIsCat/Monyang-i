@@ -17,18 +17,24 @@ const config: Config = {
         rootSize: '64px',
       },
       width: {
-        buttonWidth: '190px',
+        buttonWidth: '285px',
+        formWidth: '335px',
       },
       height: {
-        buttonHeight: '40px',
+        buttonHeight: '60px',
+        formHeight: '295px',
       },
       backgroundColor: {
         lightBrown: '#EDD2B4',
         brown: '#D0A97E',
       },
       borderRadius: {
-        radiusTenPx: '10px'
-      }
+        radius10: '10px',
+        radius20: '20px'
+      },
+      margin: {
+        form: '50px',
+      },
     },
   },
   plugins: [],
