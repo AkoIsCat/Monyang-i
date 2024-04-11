@@ -19,10 +19,13 @@ const config: Config = {
       width: {
         buttonWidth: '285px',
         formWidth: '335px',
+        inputWidth: '175px',
+        formTitleWidth: '85px',
       },
       height: {
         buttonHeight: '60px',
         formHeight: '295px',
+        inputHeight: '30px'
       },
       backgroundColor: {
         lightBrown: '#EDD2B4',
@@ -30,10 +33,18 @@ const config: Config = {
       },
       borderRadius: {
         radius10: '10px',
-        radius20: '20px'
+        radius20: '20px',
       },
       margin: {
         form: '50px',
+        input: '15px',
+        formTitle: '5px',
+      },
+      padding: {
+        input: '30px',
+      },
+      borderColor: {
+        brown: '#D0A97E',
       },
     },
   },
