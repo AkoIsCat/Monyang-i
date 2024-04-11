@@ -5,7 +5,7 @@ const SignupPage = () => {
   return (
     <div className="w-screen flex justify-center flex-col items-center h-screen">
       <FormBackground>회원가입</FormBackground>
-      <Button text='가입하기' />
+      <Button type='submit' text='가입하기' />
     </div>
   );
 };
