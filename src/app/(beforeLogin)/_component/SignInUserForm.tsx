@@ -6,7 +6,7 @@ import FormTitle from './FormTitle';
 import InputBox from './InputBox';
 import FormBackground from './FormBackground';
 
-export default function UserForm() {
+export default function SignInUserForm() {
   const idRef = useRef<HTMLInputElement>(null);
   const nameRef = useRef<HTMLInputElement>(null);
   const pwRef = useRef<HTMLInputElement>(null);
