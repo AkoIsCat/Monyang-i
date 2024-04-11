@@ -10,10 +10,10 @@ const BeforeLoginPage = () => {
       <Image src={MonyangIcon} alt="모냥이 아이콘" width={150} height={150} />
       <div className="text-rootSize">모냥이</div>
       <Link href="/signin" className="my-2">
-        <Button text="로그인" />
+        <Button type='button' text="로그인" />
       </Link>
       <Link href="/signup" className="my-2">
-        <Button text="회원가입" />
+        <Button type='button' text="회원가입" />
       </Link>
     </div>
   );
