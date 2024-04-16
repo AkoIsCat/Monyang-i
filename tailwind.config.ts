@@ -25,7 +25,8 @@ const config: Config = {
       height: {
         buttonHeight: '60px',
         formHeight: '295px',
-        inputHeight: '30px'
+        inputHeight: '30px',
+        headerHeight: '55px',
       },
       backgroundColor: {
         lightBrown: '#EDD2B4',
@@ -38,10 +39,11 @@ const config: Config = {
       margin: {
         form: '50px',
         input: '15px',
-        formTitle: '5px',
+        formTitle: '10px 5px',
       },
       padding: {
         input: '30px',
+        back: '6px',
       },
       borderColor: {
         brown: '#D0A97E',
