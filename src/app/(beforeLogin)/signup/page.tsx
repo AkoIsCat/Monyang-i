@@ -1,11 +1,17 @@
 import Button from '../_component/Button';
 import FormBackground from '../_component/FormBackground';
 import SignUpUserForm from '../_component/SignUpUserForm';
+import BackPageButton from '../_component/BackPageButton';
 
 const SignupPage = () => {
   return (
-    <div className="w-screen flex justify-center flex-col items-center h-screen">
-      <SignUpUserForm />
+    <div className="w-screen h-screen flex flex-col justify-between">
+      <header className="h-headerHeight px-back">
+        <BackPageButton />
+      </header>
+      <div className="flex justify-center flex-col items-center grow">
+        <SignUpUserForm />
+      </div>
     </div>
   );
 };
