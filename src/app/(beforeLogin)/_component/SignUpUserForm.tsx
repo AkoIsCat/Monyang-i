@@ -22,7 +22,7 @@ export default function SignUpUserForm() {
 
   return (
     <>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={() => onSubmit}>
         <FormBackground>
           <div className="m-formTitle">
             <FormTitle text="아이디" forName="id" />
