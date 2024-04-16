@@ -1,8 +1,13 @@
-import { useRouter } from "next/navigation";
+'use client';
+import { useRouter } from 'next/navigation';
 
 export default function BackPageButton() {
   const router = useRouter();
-  
+
+  const onClickBackBtn = () => {
+    router.back();
+  };
+
   return (
     <svg
       width="70px"
@@ -11,6 +16,7 @@ export default function BackPageButton() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="cursor-pointer"
+      onClick={onClickBackBtn}
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
