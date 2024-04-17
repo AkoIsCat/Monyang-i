@@ -18,20 +18,20 @@ export default function BackPageButton() {
       className="cursor-pointer"
       onClick={onClickBackBtn}
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
         {' '}
         <path
           d="M5 12H19M5 12L11 6M5 12L11 18"
           stroke="#D0A97E"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></path>{' '}
       </g>
     </svg>
