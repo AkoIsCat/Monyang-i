@@ -1,5 +1,4 @@
 import Button from '../_component/Button';
-import FormBackground from '../_component/FormBackground';
 import SignUpUserForm from '../_component/SignUpUserForm';
 import BackPageButton from '../_component/BackPageButton';
 
