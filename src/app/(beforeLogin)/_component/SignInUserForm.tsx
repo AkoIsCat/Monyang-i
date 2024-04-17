@@ -30,7 +30,7 @@ export default function SignInUserForm() {
           </div>
         </FormBackground>
         <div className="w-formWidth flex justify-center">
-          <Button type="submit" text="가입하기" />
+          <Button type="submit" text="로그인하기" />
         </div>
       </form>
     </>
