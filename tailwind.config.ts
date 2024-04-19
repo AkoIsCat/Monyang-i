@@ -24,7 +24,7 @@ const config: Config = {
       },
       height: {
         buttonHeight: '60px',
-        formHeight: '350px',
+        formHeight: '380px',
         inputHeight: '30px',
         headerHeight: '55px',
       },
