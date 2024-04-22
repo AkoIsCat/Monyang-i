@@ -5,6 +5,7 @@ import Button from './Button';
 import FormTitle from './FormTitle';
 import InputBox from './InputBox';
 import FormBackground from './FormBackground';
+import BackPageButton from './BackPageButton';
 
 export default function SignUpUserForm() {
   const idRef = useRef<HTMLInputElement>(null);
@@ -24,6 +25,9 @@ export default function SignUpUserForm() {
     <>
       <form onSubmit={() => onSubmit}>
         <FormBackground>
+          <div className="flex justify-start absolute top-[12px] left-[8px]">
+            <BackPageButton />
+          </div>
           <div className="m-formTitle">
             <FormTitle text="아이디" forName="id" />
             <InputBox type="text" id="id" ref={idRef} />
