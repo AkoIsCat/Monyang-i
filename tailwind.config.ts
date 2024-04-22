@@ -49,6 +49,13 @@ const config: Config = {
       borderColor: {
         brown: '#D0A97E',
       },
+      spacing: {
+        '12px': '12px',
+        '8px': '8px',
+      },
+      boxShadow: {
+        buttonShadow: '0 0px 10px 5px rgba(237,210,180,0.5)',
+      },
     },
   },
   plugins: [],
