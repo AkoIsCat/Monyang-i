@@ -6,7 +6,7 @@ type Children = {
 
 export default function FormBackground({ children }: Children) {
   return (
-    <div className="w-formWidth h-formHeight bg-lightBrown flex flex-col justify-center rounded-radiusTenPx my-form p-input rounded-radius10">
+    <div className="relative w-formWidth h-formHeight bg-lightBrown flex flex-col justify-center rounded-radiusTenPx my-form p-input rounded-radius10">
       {children}
     </div>
   );
