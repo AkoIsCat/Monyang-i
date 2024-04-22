@@ -10,9 +10,9 @@ export default function BackPageButton() {
 
   return (
     <svg
-      width="70px"
-      height="70px"
-      viewBox="0 0 30 30"
+      width="34px"
+      height="28px"
+      viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="cursor-pointer"
