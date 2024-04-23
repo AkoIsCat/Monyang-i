@@ -13,9 +13,9 @@ export default function AfterLoginLayout({ children }: Props) {
   return (
     <div className="flex justify-center">
       <div className="grow flex justify-center items-center">
-        <div className="w-navWidth">
+        <div>
           <div className="my-input">
-            <Link href="/home">
+            <Link href="/home" className="inline-block">
               <Image
                 src={MonyangIcon}
                 alt="모냥이 아이콘"
@@ -24,7 +24,9 @@ export default function AfterLoginLayout({ children }: Props) {
               />
             </Link>
           </div>
-          <NavMenu />
+          <nav>
+            <NavMenu />
+          </nav>
         </div>
       </div>
       <div className="w-contentsWidth grow-0">{children}</div>
