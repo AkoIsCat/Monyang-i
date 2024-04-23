@@ -16,6 +16,12 @@
   }
 }
 
+@layer base {
+  html {
+    font-size: 10px;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
