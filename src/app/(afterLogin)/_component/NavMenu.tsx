@@ -22,7 +22,7 @@ export default function NavMenu() {
     <ul className="text-navSize">
       <li className="my-nav">
         <Link href="/home" className="inline-block">
-          <div className="flex">
+          <div className="flex p-right hover:bg-lightBrown rounded-radius20">
             {segment === 'home' ? (
               <>
                 <div>
@@ -43,7 +43,7 @@ export default function NavMenu() {
       </li>
       <li className="my-nav">
         <Link href="/search" className="inline-block">
-          <div className="flex">
+          <div className="flex p-right hover:bg-lightBrown rounded-radius20">
             {segment === 'search' ? (
               <>
                 <div>
@@ -64,7 +64,7 @@ export default function NavMenu() {
       </li>
       <li className="my-nav">
         <Link href="/messages" className="inline-block">
-          <div className="flex">
+          <div className="flex p-right hover:bg-lightBrown rounded-radius20">
             {segment === 'messages' ? (
               <>
                 <div>
@@ -85,7 +85,7 @@ export default function NavMenu() {
       </li>
       <li className="my-nav">
         <Link href={`/${user.id}`} className="inline-block">
-          <div className="flex">
+          <div className="flex p-right hover:bg-lightBrown rounded-radius20">
             {segment === user.id ? (
               <>
                 <Image
