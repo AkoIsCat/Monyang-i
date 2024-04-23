@@ -14,13 +14,17 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontSize: {
-        rootSize: '64px',
+        rootSize: '6.4rem',
+        navSize: '2.4rem',
       },
       width: {
         buttonWidth: '400px',
         formWidth: '400px',
         inputWidth: '220px',
         formTitleWidth: '110px',
+        contentsWidth: '595px',
+        navWidth: '170px',
+        liWidth: '160px',
       },
       height: {
         buttonHeight: '60px',
@@ -36,15 +40,20 @@ const config: Config = {
       borderRadius: {
         radius10: '10px',
         radius20: '20px',
+        radiusCircle: '50%',
       },
       margin: {
         form: '50px',
         input: '15px',
         formTitle: '25px 5px',
+        nav: '36px',
+        li: '27px',
       },
       padding: {
         input: '30px',
         back: '6px',
+        nav: '95px',
+        right: '10px',
       },
       borderColor: {
         brown: '#D0A97E',
