@@ -15,11 +15,11 @@ export default function AfterLoginLayout({ children }: Props) {
       <div className="grow flex justify-center items-center">
         <div>
           <div className="my-input">
-            <Link href="/home" className="inline-block">
+            <Link href="/home" className="inline-block px-right">
               <Image
                 src={MonyangIcon}
                 alt="모냥이 아이콘"
-                width={48}
+                width={58}
                 priority
               />
             </Link>
