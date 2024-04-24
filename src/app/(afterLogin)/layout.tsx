@@ -4,6 +4,7 @@ import Image from 'next/image';
 import NavMenu from './_component/NavMenu';
 import MonyangIcon from '/public/monyang-i.png';
 import Link from 'next/link';
+import SearchForm from './_component/SearchForm';
 
 type Props = {
   children: ReactNode;
@@ -11,8 +12,8 @@ type Props = {
 
 export default function AfterLoginLayout({ children }: Props) {
   return (
-    <div className="flex justify-center">
-      <div className="grow flex justify-center items-center">
+    <div className="flex">
+      <div className="grow flex justify-center">
         <div>
           <div className="my-input">
             <Link href="/home" className="inline-block px-right">
@@ -30,7 +31,11 @@ export default function AfterLoginLayout({ children }: Props) {
         </div>
       </div>
       <div className="w-contentsWidth grow-0">{children}</div>
-      <div className="grow px-right">검색 & 팔로우 추천</div>
+      <div className="grow px-padding15">
+        <div className="my-input">
+          <SearchForm />
+        </div>
+      </div>
     </div>
   );
 }
