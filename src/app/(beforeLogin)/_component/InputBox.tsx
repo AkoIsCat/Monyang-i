@@ -14,7 +14,7 @@ const InputBox = forwardRef<HTMLInputElement, Props>(function InputBox(
       type={type}
       id={id}
       ref={ref}
-      className="border-b border-solid border-brown bg-lightBrown w-inputWidth h-inputHeight text-lg outline-none"
+      className="border-b border-solid border-brown bg-lightBrown w-inputWidth h-inputHeight text-inputSize outline-none"
     />
   );
 });

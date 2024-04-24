@@ -4,5 +4,5 @@ type Props = {
 };
 
 export default function FormTitle({ forName, text }: Props) {
-  return <label htmlFor={forName} className="text-2xl w-formTitleWidth inline-block">{text}</label>;
+  return <label htmlFor={forName} className="text-navSize w-formTitleWidth inline-block">{text}</label>;
 }
