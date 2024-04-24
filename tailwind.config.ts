@@ -23,25 +23,37 @@ const config: Config = {
         formWidth: '400px',
         inputWidth: '220px',
         formTitleWidth: '110px',
-        contentsWidth: '595px',
+        contentsWidth: '850px',
         navWidth: '170px',
         liWidth: '160px',
+        searchWidth: '315px',
       },
       height: {
         buttonHeight: '60px',
         formHeight: '380px',
         inputHeight: '30px',
         headerHeight: '55px',
+        searchHeight: '35px',
+        searchInputHeight: '20px',
+      },
+      lineHeight: {
+        searchInput: '20px',
       },
       backgroundColor: {
         lightBrown: '#EDD2B4',
         brown: '#D0A97E',
         modal: 'rgba(24, 24, 27,0.5)',
+        lightBrownTP: 'rgba(237, 210, 180, 0.52)',
+        lightGray: '#E0E0E0',
       },
       borderRadius: {
         radius10: '10px',
+        radius15: '15px',
         radius20: '20px',
         radiusCircle: '50%',
+      },
+      borderWidth: {
+        '1': '1px',
       },
       margin: {
         form: '50px',
@@ -55,6 +67,7 @@ const config: Config = {
         back: '6px',
         nav: '95px',
         right: '10px',
+        padding15: '15px',
       },
       borderColor: {
         brown: '#D0A97E',
@@ -65,6 +78,9 @@ const config: Config = {
       },
       boxShadow: {
         buttonShadow: '0 0px 10px 5px rgba(237,210,180,0.5)',
+      },
+      opacity: {
+        lightBrown: '52%',
       },
     },
   },
