@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import MonyangIcon from '/public/monyang-i.png';
+import MonyangIcon from '/public/monyang-i_vector.png';
 import Button from './_component/Button';
 
 const BeforeLoginPage = () => {
