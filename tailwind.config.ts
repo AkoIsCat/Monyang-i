@@ -16,6 +16,7 @@ const config: Config = {
       fontSize: {
         rootSize: '6.4rem',
         navSize: '2.4rem',
+        inputSize: '1.9rem',
       },
       width: {
         buttonWidth: '400px',
