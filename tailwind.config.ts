@@ -17,6 +17,7 @@ const config: Config = {
         rootSize: '6.4rem',
         navSize: '2.4rem',
         inputSize: '1.9rem',
+        trendSize: '2rem',
       },
       width: {
         buttonWidth: '400px',
@@ -35,6 +36,7 @@ const config: Config = {
         headerHeight: '55px',
         searchHeight: '35px',
         searchInputHeight: '20px',
+        trendHeight: '300px',
       },
       lineHeight: {
         searchInput: '20px',
@@ -71,6 +73,7 @@ const config: Config = {
       },
       borderColor: {
         brown: '#D0A97E',
+        lightBrownTP: 'rgba(237, 210, 180, 0.52)',
       },
       spacing: {
         '12px': '12px',
