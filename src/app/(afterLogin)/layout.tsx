@@ -7,6 +7,7 @@ import Link from 'next/link';
 import SearchForm from './_component/SearchForm';
 import TitleBox from './_component/TitleBox';
 import TrendBox from './_component/TrendBox';
+import RightSearch from './_component/RightSearch';
 
 type Props = {
   children: ReactNode;
@@ -38,19 +39,7 @@ export default function AfterLoginLayout({ children }: Props) {
         <div className="w-contentsWidth grow-0">{children}</div>
       </section>
       <section className="grow">
-        <div className="px-padding15">
-          <div className="my-input">
-            <SearchForm />
-          </div>
-          <div className="w-searchWidth py-back">
-            <TitleBox>실시간 트렌드</TitleBox>
-            <TrendBox trend="고양이" />
-            <TrendBox trend="고양이" />
-            <TrendBox trend="고양이" />
-            <TrendBox trend="고양이" />
-            <TrendBox trend="고양이" />
-          </div>
-        </div>
+        <RightSearch />
       </section>
     </div>
   );
