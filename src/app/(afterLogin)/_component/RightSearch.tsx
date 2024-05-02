@@ -17,7 +17,7 @@ export default function RightSearch() {
       <div className="my-input">
         <SearchForm />
       </div>
-      <div className="w-searchWidth py-back">
+      <div className="w-searchWidth py-back mb-[64px]">
         <TitleBox>실시간 트렌드</TitleBox>
         <TrendBox trend="고양이" />
         <TrendBox trend="고양이" />
