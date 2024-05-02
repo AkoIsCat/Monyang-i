@@ -63,6 +63,7 @@ const config: Config = {
         formTitle: '25px 5px',
         nav: '36px',
         li: '27px',
+        '100px': '100px',
       },
       padding: {
         input: '30px',
