@@ -4,9 +4,6 @@ import Image from 'next/image';
 import NavMenu from './_component/NavMenu';
 import MonyangIcon from '/public/monyang-i.png';
 import Link from 'next/link';
-import SearchForm from './_component/SearchForm';
-import TitleBox from './_component/TitleBox';
-import TrendBox from './_component/TrendBox';
 import RightSearch from './_component/RightSearch';
 
 type Props = {
