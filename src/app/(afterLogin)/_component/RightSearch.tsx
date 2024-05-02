@@ -8,7 +8,7 @@ import TrendBox from './TrendBox';
 export default function RightSearch() {
   const path = usePathname();
 
-  if (path === '/search') {
+  if (path === '/explore') {
     return null;
   }
 
