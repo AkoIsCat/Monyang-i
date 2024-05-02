@@ -42,9 +42,9 @@ export default function NavMenu() {
         </Link>
       </li>
       <li className="my-nav">
-        <Link href="/search" className="inline-block">
+        <Link href="/explore" className="inline-block">
           <div className="flex items-center p-right hover:bg-lightBrownTP rounded-radius20">
-            {segment === 'search' ? (
+            {segment === 'explore' ? (
               <>
                 <div>
                   <CompassColorIcon />
