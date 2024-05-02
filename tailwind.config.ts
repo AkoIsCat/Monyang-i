@@ -18,6 +18,8 @@ const config: Config = {
         navSize: '2.4rem',
         inputSize: '1.9rem',
         trendSize: '2rem',
+        followBtnSize: '1.5rem',
+        followIdSize: '1.2rem',
       },
       width: {
         buttonWidth: '400px',
@@ -28,6 +30,7 @@ const config: Config = {
         navWidth: '170px',
         liWidth: '160px',
         searchWidth: '315px',
+        followBtnWidth: '55px',
       },
       height: {
         buttonHeight: '60px',
@@ -37,6 +40,7 @@ const config: Config = {
         searchHeight: '35px',
         searchInputHeight: '20px',
         trendHeight: '300px',
+        followBoxHeight: '75px',
       },
       lineHeight: {
         searchInput: '20px',
@@ -47,6 +51,7 @@ const config: Config = {
         modal: 'rgba(24, 24, 27,0.5)',
         lightBrownTP: 'rgba(237, 210, 180, 0.52)',
         lightGray: '#E0E0E0',
+        grayBlack: '#141414',
       },
       borderRadius: {
         radius10: '10px',
@@ -63,6 +68,7 @@ const config: Config = {
         formTitle: '25px 5px',
         nav: '36px',
         li: '27px',
+        '10px': '10px',
         '100px': '100px',
         '64px': '64px',
       },
@@ -86,6 +92,9 @@ const config: Config = {
       },
       opacity: {
         lightBrown: '52%',
+      },
+      colors: {
+        id: '#9B9B9B',
       },
     },
   },
