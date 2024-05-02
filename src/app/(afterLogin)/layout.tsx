@@ -5,6 +5,7 @@ import NavMenu from './_component/NavMenu';
 import MonyangIcon from '/public/monyang-i.png';
 import Link from 'next/link';
 import RightSearch from './_component/RightSearch';
+import TitleBox from './_component/TitleBox';
 
 type Props = {
   children: ReactNode;
@@ -36,7 +37,12 @@ export default function AfterLoginLayout({ children }: Props) {
         <div className="w-contentsWidth grow-0">{children}</div>
       </section>
       <section className="grow">
-        <RightSearch />
+        <div className="px-padding15">
+          <RightSearch />
+          <div className="w-searchWidth py-back mt-[64px]">
+            <TitleBox>팔로우 추천</TitleBox>
+          </div>
+        </div>
       </section>
     </div>
   );
