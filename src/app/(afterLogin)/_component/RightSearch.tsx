@@ -13,7 +13,7 @@ export default function RightSearch() {
   }
 
   return (
-    <div className="px-padding15">
+    <>
       <div className="my-input">
         <SearchForm />
       </div>
@@ -25,6 +25,6 @@ export default function RightSearch() {
         <TrendBox trend="고양이" />
         <TrendBox trend="고양이" />
       </div>
-    </div>
+    </>
   );
 }
