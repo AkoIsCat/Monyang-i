@@ -64,6 +64,7 @@ const config: Config = {
         nav: '36px',
         li: '27px',
         '100px': '100px',
+        '64px': '64px',
       },
       padding: {
         input: '30px',
