@@ -31,6 +31,7 @@ const config: Config = {
         liWidth: '160px',
         searchWidth: '315px',
         followBtnWidth: '55px',
+        exploreWidth: '800px',
       },
       height: {
         buttonHeight: '60px',
@@ -41,6 +42,7 @@ const config: Config = {
         searchInputHeight: '20px',
         trendHeight: '300px',
         followBoxHeight: '75px',
+        searchDivHeight: '85px',
       },
       lineHeight: {
         searchInput: '20px',
@@ -61,6 +63,7 @@ const config: Config = {
       },
       borderWidth: {
         '1': '1px',
+        '10': '10px',
       },
       margin: {
         form: '50px',
@@ -71,6 +74,7 @@ const config: Config = {
         '10px': '10px',
         '100px': '100px',
         '64px': '64px',
+        '20px': '20px',
       },
       padding: {
         input: '30px',
@@ -78,10 +82,12 @@ const config: Config = {
         nav: '95px',
         right: '10px',
         padding15: '15px',
+        '20px': '20px',
       },
       borderColor: {
         brown: '#D0A97E',
         lightBrownTP: 'rgba(237, 210, 180, 0.52)',
+        darkBrown: '#EDD2B4',
       },
       spacing: {
         '12px': '12px',
@@ -95,6 +101,9 @@ const config: Config = {
       },
       colors: {
         id: '#9B9B9B',
+      },
+      textUnderlineOffset: {
+        10: '10px',
       },
     },
   },
