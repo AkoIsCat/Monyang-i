@@ -1,7 +1,9 @@
+import Header from '../_component/Header';
+
 export default function Message() {
   return (
     <div className="border-x-1 border-lightGray min-h-screen">
-      쪽지 페이지 입니다.
+      <Header headerText="쪽지" />
     </div>
   );
 }

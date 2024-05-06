@@ -1,7 +1,13 @@
+import Header from '../_component/Header';
+
 export default function Profile() {
+  const user = {
+    userName: '아코집사',
+  };
+
   return (
     <div className="border-x-1 border-lightGray min-h-screen">
-      프로필 페이지 입니다.
+      <Header headerText={user.userName} />
     </div>
   );
 }
