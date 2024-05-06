@@ -1,10 +1,6 @@
-import { ReactNode } from 'react';
+import { ChildrenType } from '@/type';
 
-type Props = {
-  children: ReactNode;
-};
-
-export default function TitleBox({ children }: Props) {
+export default function TitleBox({ children }: ChildrenType) {
   return (
     <div className="w-searchWidth h-headerHeight bg-lightBrownTP text-navSize rounded-t-radius10 p-right">
       {children}

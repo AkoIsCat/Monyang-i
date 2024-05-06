@@ -1,11 +1,8 @@
 'use client';
 import { useRouter, usePathname } from 'next/navigation';
+import { TrendType } from '@/type';
 
-type Props = {
-  trend: string;
-};
-
-export default function TrendBox({ trend }: Props) {
+export default function TrendBox({ trend }: TrendType) {
   const router = useRouter();
   const path = usePathname();
 

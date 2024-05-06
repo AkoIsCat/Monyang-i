@@ -1,8 +1,6 @@
-type Props = {
-  onClick?: () => {};
-};
+import { FollowBtnType } from '@/type';
 
-export default function FollowButton({ onClick }: Props) {
+export default function FollowButton({ onClick }: FollowBtnType) {
   return (
     <button
       onClick={onClick}

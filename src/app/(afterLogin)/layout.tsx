@@ -1,5 +1,5 @@
-import { ReactNode, use } from 'react';
 import Image from 'next/image';
+import { ChildrenType } from '@/type';
 
 import NavMenu from './_component/NavMenu';
 import MonyangIcon from '/public/monyang-i.png';
@@ -8,11 +8,7 @@ import RightSearch from './_component/RightSearch';
 import TitleBox from './_component/TitleBox';
 import FollowBox from './_component/FollowBox';
 
-type Props = {
-  children: ReactNode;
-};
-
-export default function AfterLoginLayout({ children }: Props) {
+export default function AfterLoginLayout({ children }: ChildrenType) {
   const user = {
     image: '/user_images.jpg',
     userName: '아코집사',
