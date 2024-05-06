@@ -20,6 +20,7 @@ const config: Config = {
         trendSize: '2rem',
         followBtnSize: '1.5rem',
         followIdSize: '1.2rem',
+        headerSize: '2.8rem',
       },
       width: {
         buttonWidth: '400px',
