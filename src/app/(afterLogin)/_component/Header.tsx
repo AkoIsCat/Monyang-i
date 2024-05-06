@@ -1,8 +1,6 @@
-type Props = {
-  headerText: string;
-};
+import { HeaderType } from "@/type";
 
-export default function Header({ headerText }: Props) {
+export default function Header({ headerText }: HeaderType) {
   return (
     <div className="text-headerSize py-right px-[20px] border-b-10 border-darkBrown">
       {headerText}

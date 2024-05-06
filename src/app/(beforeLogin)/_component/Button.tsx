@@ -1,9 +1,6 @@
-type Type = {
-  text: string;
-  type: 'submit' | 'button';
-};
+import { formBtnType } from '@/type';
 
-export default function Button({ text, type }: Type) {
+export default function Button({ text, type }: formBtnType) {
   return (
     <button
       type={type}

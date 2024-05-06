@@ -1,14 +1,10 @@
 import Image from 'next/image';
+import { FollowBoxType } from '@/type';
 
 import FollowButton from './FollowButton';
 
-type Props = {
-  image: string;
-  userName: string;
-  userId: string;
-};
 
-export default function FollowBox({ image, userName, userId }: Props) {
+export default function FollowBox({ image, userName, userId }: FollowBoxType) {
   return (
     <div className="flex justify-between w-searchWidth h-followBoxHeight items-center border-b-1 border-lightBrownTP hover:bg-lightBrownTP cursor-pointer">
       <div className="flex px-right">

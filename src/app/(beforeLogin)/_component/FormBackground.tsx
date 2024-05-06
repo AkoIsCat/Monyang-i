@@ -1,10 +1,6 @@
-import { ReactNode } from 'react';
+import { ChildrenType } from '@/type';
 
-type Children = {
-  children: ReactNode;
-};
-
-export default function FormBackground({ children }: Children) {
+export default function FormBackground({ children }: ChildrenType) {
   return (
     <div className="relative w-formWidth h-formHeight bg-lightBrown flex flex-col justify-center rounded-radiusTenPx my-form p-input rounded-radius10">
       {children}

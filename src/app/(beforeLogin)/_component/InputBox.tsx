@@ -1,11 +1,7 @@
 import React, { forwardRef } from 'react';
+import { InputType } from '@/type';
 
-type Props = {
-  type: string;
-  id: string;
-};
-
-const InputBox = forwardRef<HTMLInputElement, Props>(function InputBox(
+const InputBox = forwardRef<HTMLInputElement, InputType>(function InputBox(
   { type, id },
   ref
 ) {
