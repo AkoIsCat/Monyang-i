@@ -4,11 +4,25 @@ export type ChildrenType = {
   children: ReactNode;
 };
 
-export type Type = {
+export type formBtnType = {
   text: string;
   type: 'submit' | 'button';
 };
 
+export type LayoutModalType = {
+  children: ReactNode;
+  modal: ReactNode;
+};
+
+export type FormTitleType = {
+  forName: string;
+  text: string;
+};
+
+export type InputType = {
+  type: string;
+  id: string;
+};
 
 export type TrendType = {
   trend: string;
