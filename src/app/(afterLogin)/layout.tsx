@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { ChildrenType } from '@/type';
 
 import NavMenu from './_component/NavMenu';
-import MonyangIcon from '/public/monyang-i.png';
+import MonyangIcon from '/public/monyang-i_vector2.png';
 import Link from 'next/link';
 import RightSearch from './_component/RightSearch';
 import TitleBox from './_component/TitleBox';
