@@ -10,8 +10,12 @@ export default function Header({ headerText }: HeaderType) {
       <div>{headerText}</div>
       {path === '/home' && (
         <div className="flex">
-          <div className="w-1/2 text-center text-trendSize">모두</div>
-          <div className="w-1/2 text-center text-trendSize">팔로우 중</div>
+          <div className="w-1/2 text-center text-trendSize cursor-pointer">
+            모두
+          </div>
+          <div className="w-1/2 text-center text-trendSize cursor-pointer">
+            팔로우 중
+          </div>
         </div>
       )}
     </div>
