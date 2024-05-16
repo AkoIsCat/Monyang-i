@@ -76,6 +76,7 @@ const config: Config = {
         '100px': '100px',
         '64px': '64px',
         '20px': '20px',
+        '5px': '5px',
       },
       padding: {
         input: '30px',
