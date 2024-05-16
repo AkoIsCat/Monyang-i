@@ -42,10 +42,19 @@ export type FollowBtnType = {
   onClick?: () => {};
 };
 
-
 export type PostsUserType = {
   userName: string;
   userId: string;
   userImage: string;
   createDateAt: string;
-}
+};
+
+export type UserProfileType = {
+  userName: string;
+  userId: string;
+  userImage: string;
+  followers: number;
+  following: number;
+  createdPostsCount: number;
+  introduction: string;
+};
