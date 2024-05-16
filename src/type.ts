@@ -41,3 +41,11 @@ export type FollowBoxType = {
 export type FollowBtnType = {
   onClick?: () => {};
 };
+
+
+export type PostsUserType = {
+  userName: string;
+  userId: string;
+  userImage: string;
+  createDateAt: string;
+}
