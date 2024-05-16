@@ -21,6 +21,7 @@ const config: Config = {
         followBtnSize: '1.5rem',
         followIdSize: '1.2rem',
         headerSize: '2.8rem',
+        profileNameSize: '3.5rem',
       },
       width: {
         buttonWidth: '400px',
@@ -77,6 +78,7 @@ const config: Config = {
         '64px': '64px',
         '20px': '20px',
         '5px': '5px',
+        '40px': '40px',
       },
       padding: {
         input: '30px',
@@ -90,6 +92,7 @@ const config: Config = {
         brown: '#D0A97E',
         lightBrownTP: 'rgba(237, 210, 180, 0.52)',
         darkBrown: '#EDD2B4',
+        darkGray: '#949494',
       },
       spacing: {
         '12px': '12px',
