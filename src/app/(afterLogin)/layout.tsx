@@ -26,6 +26,8 @@ export default function AfterLoginLayout({ children }: ChildrenType) {
                   src={MonyangIcon}
                   alt="모냥이 아이콘"
                   width={58}
+                  height={58}
+                  style={{ width: 58, height: 58 }}
                   priority
                 />
               </Link>
