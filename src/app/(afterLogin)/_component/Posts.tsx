@@ -23,13 +23,12 @@ export default function Posts() {
         />
       </div>
       <div className="text-navSize m-input ">{postsUser.content}</div>
-      <div>
+      <div className="relative">
         <Image
           src={postsUser.contentImage}
           alt="게시글 이미지"
           priority
-          width={100}
-          height={100}
+          layout="fill"
         />
       </div>
       <div>상태</div>
