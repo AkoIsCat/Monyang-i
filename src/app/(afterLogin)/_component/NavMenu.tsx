@@ -21,7 +21,7 @@ export default function NavMenu() {
   return (
     <ul className="text-navSize">
       <li className="my-nav">
-        <Link href="/home" className="inline-block">
+        <Link href="/home" className="inline-block" as={'home'}>
           <div className="flex items-center p-right hover:bg-lightBrownTP rounded-radius20">
             {segment === 'home' ? (
               <>
@@ -42,7 +42,7 @@ export default function NavMenu() {
         </Link>
       </li>
       <li className="my-nav">
-        <Link href="/explore" className="inline-block">
+        <Link href="/explore" className="inline-block" as={'explore'}>
           <div className="flex items-center p-right hover:bg-lightBrownTP rounded-radius20">
             {segment === 'explore' ? (
               <>
@@ -63,7 +63,7 @@ export default function NavMenu() {
         </Link>
       </li>
       <li className="my-nav">
-        <Link href="/messages" className="inline-block">
+        <Link href="/messages" className="inline-block" as={'messages'}>
           <div className="flex items-center p-right hover:bg-lightBrownTP rounded-radius20">
             {segment === 'messages' ? (
               <>
@@ -84,7 +84,7 @@ export default function NavMenu() {
         </Link>
       </li>
       <li className="my-nav">
-        <Link href={`/${user.id}`} className="inline-block">
+        <Link href={`/${user.id}`} className="inline-block" as={`/${user.id}`}>
           <div className="flex items-center p-right hover:bg-lightBrownTP rounded-radius20">
             {segment === user.id ? (
               <>
