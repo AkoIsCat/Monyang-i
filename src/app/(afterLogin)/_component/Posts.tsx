@@ -3,6 +3,7 @@ import PostsUser from './PostsUser';
 import Image from 'next/image';
 import { faker } from '@faker-js/faker';
 import { usePathname } from 'next/navigation';
+import ActionBox from './ActionBox';
 
 export default function Posts() {
   const postsUser = {
@@ -43,7 +44,15 @@ export default function Posts() {
           layout="fill"
         />
       </div> */}
-      <div>상태</div>
+      <div className="m-input">
+        <ActionBox
+          heartStatus={true}
+          heartCount={20}
+          repostsStatus={false}
+          repostsCount={0}
+          commentCount={10}
+        />
+      </div>
       {(path === '/home' || path === '/search') && (
         <div className="text-headerSize py-right px-[20px] border-b-10 border-darkBrown" />
       )}
