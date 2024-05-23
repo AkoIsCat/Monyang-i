@@ -18,6 +18,14 @@ export default function Posts() {
 
   return (
     <div>
+      {path !== '/home' &&
+        path !== '/search' &&
+        path !== 'explore' &&
+        path !== 'message' && (
+          <div className="px-[20px]">
+            <div className="border " />
+          </div>
+        )}
       <div>
         <PostsUser
           userName={postsUser.userName}
@@ -39,6 +47,14 @@ export default function Posts() {
       {(path === '/home' || path === '/search') && (
         <div className="text-headerSize py-right px-[20px] border-b-10 border-darkBrown" />
       )}
+      {path !== '/home' &&
+        path !== '/search' &&
+        path !== 'explore' &&
+        path !== 'message' && (
+          <div className="px-[20px]">
+            <div className="border " />
+          </div>
+        )}
     </div>
   );
 }
