@@ -58,3 +58,11 @@ export type UserProfileType = {
   createdPostsCount: number;
   introduction: string;
 };
+
+export type ActionType = {
+  heartStatus: boolean;
+  heartCount: number;
+  repostsCount: number;
+  repostsStatus: boolean;
+  commentCount: number;
+};
