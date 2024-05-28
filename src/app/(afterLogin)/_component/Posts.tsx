@@ -12,7 +12,8 @@ export default function Posts() {
     date: '2024-05-15 22:30:45',
     image: '/user_images.jpg',
     content: '안녕하세용 아코집사에요!',
-    contentImage: faker.image.avatar(),
+    contentImage: faker.image.url(),
+    contentImageId: 1,
   };
 
   const path = usePathname();
@@ -36,14 +37,14 @@ export default function Posts() {
         />
       </div>
       <div className="text-navSize m-input ">{postsUser.content}</div>
-      {/* <div className="relative">
-        <Image
+      <div className="relative">
+        <img
           src={postsUser.contentImage}
-          alt="게시글 이미지"
-          priority
-          layout="fill"
+          alt=""
+          className="w-full"
+          id={postsUser.contentImageId}
         />
-      </div> */}
+      </div>
       <div className="m-input">
         <ActionBox
           heartStatus={true}
