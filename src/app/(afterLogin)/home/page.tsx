@@ -6,6 +6,9 @@ export default function Home() {
     <div className="border-x-1 border-lightGray min-h-screen">
       <Header headerText="홈" />
       <Posts />
+      <Posts />
+      <Posts />
+      <Posts />
     </div>
   );
 }
