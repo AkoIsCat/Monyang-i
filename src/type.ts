@@ -66,3 +66,11 @@ export type ActionType = {
   repostsStatus: boolean;
   commentCount: number;
 };
+
+export type MessageType = {
+  profileImg: string;
+  userName: string;
+  userId: string;
+  latestDate: string;
+  message: string;
+};
