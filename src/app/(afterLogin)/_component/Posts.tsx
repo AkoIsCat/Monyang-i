@@ -3,11 +3,13 @@ import PostsUser from './PostsUser';
 import Image from 'next/image';
 import { faker } from '@faker-js/faker';
 import { usePathname } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import ActionBox from './ActionBox';
 
 export default function Posts() {
   const postsUser = {
     userName: '아코집사',
+    postId: '1',
     userId: 'ako_cat',
     date: '2024-05-15 22:30:45',
     image: '/user_images.jpg',
@@ -17,6 +19,13 @@ export default function Posts() {
   };
 
   const path = usePathname();
+  const router = useRouter();
+
+  const onClickImage = () => {
+    router.push(
+      `/${postsUser.userId}/status/${postsUser.postId}/photo/${postsUser.contentImageId}`
+    );
+  };
 
   return (
     <div>
@@ -41,8 +50,9 @@ export default function Posts() {
         <img
           src={postsUser.contentImage}
           alt=""
-          className="w-full"
+          className="w-full cursor-pointer"
           id={postsUser.contentImageId}
+          onClick={onClickImage}
         />
       </div>
       <div className="m-input">
